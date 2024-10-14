@@ -75,6 +75,7 @@ function App() {
                     onClick={() =>
                       setTodos(todos.filter((t) => t.id !== todo.id))
                     }
+                    aria-label="Delete todo"
                   >
                     <X className="w-5 h-5 text-gray-400 hover:text-gray-700" />
                   </button>
